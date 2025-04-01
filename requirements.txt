@@ -1,0 +1,10 @@
+streamlit
+pandas
+matplotlib
+pillow
+wordcloud
+pydeck
+PyPDF2
+transformers
+
+

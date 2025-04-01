@@ -1,0 +1,32 @@
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment folder
+venv/
+.env/
+.env.*
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore data files you don't want to push
+*.pdf
+*.csv
+*.xlsx
+
+# VSCode settings
+.vscode/
+
+# Ignore Streamlit's cache
+.streamlit/config.toml
+.streamlit/secrets.toml
+.streamlit/
+
+# Jupyter notebook checkpoints (if any in future)
+.ipynb_checkpoints/
+
+# Ignore model artifacts (if applicable)
+*.h5
+*.pkl
+*.joblib
