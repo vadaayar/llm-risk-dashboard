@@ -11,7 +11,7 @@ venv/
 .DS_Store
 
 # Ignore data files you don't want to push
-*.pdf
+# *.pdf
 *.csv
 *.xlsx
 
