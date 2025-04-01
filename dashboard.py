@@ -180,7 +180,8 @@ elif section == "Document Risk Analyzer":
 
     # PDF Download Option
     st.markdown("### 📄 Full Survey PDF (Manual Insights)")
-    with open("C:/Users/Harish Kummara/OneDrive/Desktop/LLM Project/survey.pdf", "rb") as pdf_file:
+    with open("survey.pdf", "rb") as pdf_file:
+
         PDF_BYTES = pdf_file.read()
     st.download_button("📥 Download Full Survey PDF", data=PDF_BYTES, file_name="Full_Survey.pdf")
     
